@@ -1,0 +1,7 @@
+list = []
+n = int(input())
+for i in range(n):
+    elementsoflist = input()
+    list.append(elementsoflist)
+    mytuple = tuple(list)
+print(mytuple)
